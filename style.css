@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+body{
+    background:
+    linear-gradient(90deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.8)),
+    url("https://www.10wallpaper.com/wallpaper/1366x768/1606/Internet_Business_Technology_HD_Wallpaper_11_1366x768.jpg");
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    min-width: 60vw;
+    max-width: 80vw;
+    padding: 10px;
+    height: 80vh;
+    gap: 15px;
+    align-items: center;
+
+}
+
+h1{
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-align: start;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    gap: 0.2rem;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+}
+
+form>input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.648);
+    background-color: rgba(3, 3, 3, 0.356);
+    color: white;
+}
+
+#btn>button{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 130px;
+    font-size: 1rem;
+}
+
+#sub{
+    background-color: rgb(128, 242, 234);
+    color: black;
+}
+
+#export{
+background-color: rgba(13, 143, 41, 0.674);
+color: white;
+
+}
+
+table {
+background-color: rgb(255, 255, 255);
+border-collapse: collapse;
+color: black;
+
+}
+
+table,th, td {
+
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.apagarStyle{
+    background-color: red;
+    border: none;
+    border-radius: 9px;
+    padding-top: 3px;
+    color: white;
+    cursor: pointer;
+}
+
+.editarStyle{
+    background-color: rgb(245, 245, 116);
+    border: none;
+    border-radius: 9px;
+    padding-top: 3px;
+    color: black;
+    cursor: pointer;
+}
+
